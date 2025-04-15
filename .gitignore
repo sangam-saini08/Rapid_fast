@@ -1,0 +1,92 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# IDEs
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Python cache files
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+
+# Test coverage reports
+htmlcov/
+.coverage
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+.cache
+.pytest_cache/
+
+# MyPy and Pylint
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pylint.d/
+
+# FastAPI / Uvicorn logs
+*.log
+
+# Database files (SQLite, etc.)
+*.db
+*.sqlite3
+
+# Environment variables
+.env
+.env.*
+
+# VS Code and PyCharm settings
+.vscode/
+.idea/
+
+# PyInstaller
+build/
+dist/
+*.spec
+
+# __init__.py compiled files
+*.egg-info/
+.eggs/
+*.egg
+
+# Local development tools
+*.swp
+*.swo
+*.bak
+
+# Sockets, temp files
+*.sock
+*.tmp
+
+# Docker
+*.pid
+docker-compose.override.yml
+
+# Jupyter Notebooks (optional)
+.ipynb_checkpoints
+
+# Git files
+.git/
+
+# Node modules (if using frontend)
+node_modules/
+
+# __local builds or testing artifacts__
+local_settings.py
